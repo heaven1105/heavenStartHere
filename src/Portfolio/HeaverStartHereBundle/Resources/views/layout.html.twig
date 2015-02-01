@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HEAVEN START HERE</title>
+<link rel="stylesheet" href="{{ asset("css/index.css") }}">
+<script src="{{ asset("js/jquery-2.1.3.js") }}"></script>
+</head>
+<body>
+<div id="main">
+    <div id="header">{% block header %}{% endblock %}</div>
+    <div id="welcome">WELCOME</div>
+    <div id="about">{% block about %}{% endblock %}</div>
+    <div id="works">{% block works %}{% endblock %}</div>
+    <div id="connect">{% block connect %}{% endblock %}</div>
+    <div id="footer">{% block footer %}{% endblock %}</div>
+</div>
+{% block js %}
+{% endblock %}
+</body>
+</html>

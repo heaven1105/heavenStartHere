@@ -1,0 +1,48 @@
+#main{
+    max-width: 940px;
+    background: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header{
+    background: #b7b7b7;
+    width: 100%;
+    min-height: 50px;
+    text-align: right;
+}
+
+#welcome{
+    background: linear-gradient(to top, #f6f6f6, #b7b7b7);
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+}
+
+#about{
+    background: #dd6666;
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+}
+
+#works{
+    background: #0088CC;
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+}
+
+#connect{
+    background: linear-gradient(to top, #595d66, #ffcc00);
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+}
+
+#footer{
+    background: #595d66;
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+}

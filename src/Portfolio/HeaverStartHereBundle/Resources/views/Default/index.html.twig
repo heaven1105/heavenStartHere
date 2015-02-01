@@ -1,1 +1,11 @@
-Hello {{ name }}!
+{% extends "HeavenStartHereBundle::layout.html.twig" %}
+
+{% block header %} {{ render(controller('HeavenStartHereBundle:Default:header')) }}{% endblock %}
+
+{% block about %} {{ render(controller('HeavenStartHereBundle:About:about')) }}{% endblock %}
+
+{% block works %} {{ render(controller('HeavenStartHereBundle:Works:works')) }}{% endblock %}
+
+{% block connect %} {{ render(controller('HeavenStartHereBundle:Connect:connect')) }}{% endblock %}
+
+{% block footer %} {{ render(controller('HeavenStartHereBundle:Default:footer')) }}{% endblock %}
