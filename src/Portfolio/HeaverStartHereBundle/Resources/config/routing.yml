@@ -1,0 +1,3 @@
+heaven_start_here_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: HeavenStartHereBundle:Default:index }

@@ -1,0 +1,5 @@
+heaven_start_here:
+    resource: "@HeavenStartHereBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
