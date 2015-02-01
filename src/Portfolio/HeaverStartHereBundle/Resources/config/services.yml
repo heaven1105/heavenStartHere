@@ -1,4 +1,4 @@
 services:
-#    heaven_start_here.example:
-#        class: Portfolio\HeaverStartHereBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+    model.connect:
+        class: Portfolio\HeaverStartHereBundle\Connect
+        arguments: [@mailer, %mailer_user%]

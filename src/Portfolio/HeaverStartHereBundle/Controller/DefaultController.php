@@ -8,6 +8,7 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
+        //set html headers to cache
         return $this->render('HeavenStartHereBundle:Default:index.html.twig');
     }
 
